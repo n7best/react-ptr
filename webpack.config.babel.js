@@ -223,6 +223,14 @@ const distCommon = {
         test: /\.jsx?$/,
         loaders: ['babel'],
         include: config.paths.src
+      },
+      {
+          test: /\.less$/,
+          loader: 'style!css!postcss!less'
+      },
+      {
+          test: /\.svg/,
+          loader: 'svg-url-loader?noquotes=true'
       }
     ]
   },
