@@ -128,6 +128,7 @@ if (TARGET === 'start') {
         }
       ]
     },
+    postcss: [autoprefixer],
     devServer: {
       historyApiFallback: true,
       hot: true,
@@ -174,6 +175,7 @@ if (TARGET === 'gh-pages' || TARGET === 'gh-pages:stats') {
         '[name].[chunkhash].js'
       )
     ],
+    postcss: [autoprefixer],
     module: {
       loaders: [
         {
@@ -236,7 +238,8 @@ const distCommon = {
   },
   plugins: [
     new SystemBellPlugin()
-  ]
+  ],
+  postcss: [autoprefixer]
 };
 
 if (TARGET === 'dist') {
