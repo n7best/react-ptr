@@ -175,7 +175,6 @@ if (TARGET === 'gh-pages' || TARGET === 'gh-pages:stats') {
         '[name].[chunkhash].js'
       )
     ],
-    postcss: [autoprefixer],
     module: {
       loaders: [
         {
@@ -189,14 +188,6 @@ if (TARGET === 'gh-pages' || TARGET === 'gh-pages:stats') {
             config.paths.docs,
             config.paths.src
           ]
-        },
-        {
-            test: /\.less$/,
-            loader: 'style!css!postcss!less'
-        },
-        {
-            test: /\.svg/,
-            loader: 'svg-url-loader?noquotes=true'
         }
       ]
     }

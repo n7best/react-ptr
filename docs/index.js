@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import GithubCorner from 'react-github-corner';
 import { Catalog, CodeSpecimen, ReactSpecimen } from 'catalog';
 import TouchEmulator from 'hammer-touchemulator';
+import logoSrc from './logo.png';
 
 import 'purecss/build/pure.css';
 import './main.css';
@@ -48,7 +49,7 @@ ReactDOM.render(
       direction="right"
     />
     <Catalog
-      logoSrc="docs/logo.png"
+      logoSrc={logoSrc}
       imports={documentationImports}
       pages={pages}
       specimens={{
