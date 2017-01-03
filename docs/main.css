@@ -2,4 +2,19 @@
     z-index: 1000;
 }
 
-/* TODO: insert main styles of your demo here */
+.demo::-webkit-scrollbar, .demo div::-webkit-scrollbar{
+    width: 0 !important
+}
+
+.demo, .demo div {
+    -ms-overflow-style: none;
+}
+
+.demo {
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    width:300px;
+    position: relative;
+}

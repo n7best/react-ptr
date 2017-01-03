@@ -1,0 +1,74 @@
+@duration: 2s;
+
+.react-ptr-loader__modern {
+    flex: 1;
+    padding: '5px';
+    margin: 'auto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-loader {
+
+        &-inner {
+            transform: translateY(-50%);
+            position: absolute;
+            color: #000;
+            padding: 0 100px;
+            text-align: center;
+
+            & label {
+                width: 5px;
+                height: 5px;
+                background-color: #000;
+                opacity: 0;
+                display:inline-block;
+                margin: 2px;
+                border-radius: 50%;
+            }
+
+            & label:nth-child(6) {
+              animation: lol @duration infinite ease-in-out;
+            }
+
+            & label:nth-child(5) {
+              animation: moving @duration 100ms infinite ease-in-out;
+            }
+
+            & label:nth-child(4) {
+              animation: moving @duration 200ms infinite ease-in-out;
+            }
+
+            & label:nth-child(3) {
+              animation: moving @duration 300ms infinite ease-in-out;
+            }
+
+            & label:nth-child(2) {
+              animation: moving @duration 400ms infinite ease-in-out;
+            }
+
+            & label:nth-child(1) {
+              animation: moving @duration 500ms infinite ease-in-out;
+            }
+        }
+    }
+}
+
+@keyframes moving {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+}

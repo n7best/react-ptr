@@ -1,11 +1,11 @@
 {
-  "name": "react-component-boilerplate",
-  "description": "Boilerplate for React.js components",
-  "author": "Juho Vepsalainen",
-  "user": "survivejs",
-  "version": "3.0.0",
+  "name": "react-ptr",
+  "description": "react pull to refresh",
+  "author": "n7best",
+  "user": "n7best",
+  "version": "0.0.1",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --progress --colors --host $IP --port $PORT",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
@@ -15,7 +15,8 @@
     "gh-pages:stats": "webpack --profile --json > stats.json",
     "dist": "webpack",
     "dist:min": "webpack",
-    "dist:modules": "rimraf ./dist-modules && babel ./src --out-dir ./dist-modules",
+    "dist:modules": "rimraf ./dist-modules && babel ./src --out-dir ./dist-modules --copy-files && npm run build:less",
+    "build:less": "find dist-modules/ -name '*.less' -exec lessc -x {} \\; > ./dist-modules/style.min.css",
     "preversion": "npm run test && npm run dist && npm run dist:min && git commit --allow-empty -am \"Update dist\"",
     "prepublish": "npm run dist:modules",
     "postpublish": "npm run gh-pages && npm run gh-pages:deploy",
@@ -25,19 +26,22 @@
   "module": "src",
   "jsnext:main": "src",
   "devDependencies": {
+    "autoprefixer": "^6.6.0",
     "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
     "babel-eslint": "^7.0.0",
     "babel-jest": "^16.0.0",
     "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.19.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.2.10",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-2": "^6.18.0",
     "catalog": "^2.4.7",
     "chai": "^3.5.0",
     "clean-webpack-plugin": "^0.1.13",
-    "css-loader": "^0.25.0",
+    "css-loader": "^0.26.1",
     "eslint": "^3.8.1",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-loader": "^1.6.0",
@@ -48,10 +52,15 @@
     "file-loader": "^0.9.0",
     "gh-pages": "^0.11.0",
     "git-prepush-hook": "^1.0.1",
+    "hammer-touchemulator": "0.0.2",
     "html-webpack-plugin": "^2.22.0",
     "html-webpack-template": "^5.4.1",
     "jest": "^16.0.1",
     "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "loader-utils": "^0.2.16",
+    "postcss-loader": "^1.2.1",
     "purecss": "^0.6.0",
     "raw-loader": "^0.5.1",
     "react": "^15.3.2",
@@ -60,6 +69,7 @@
     "react-github-corner": "^0.3.0",
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
+    "svg-url-loader": "^1.1.0",
     "sync-exec": "^0.6.2",
     "system-bell-webpack-plugin": "^1.0.0",
     "url-loader": "^0.5.7",
@@ -72,11 +82,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/survivejs/react-component-boilerplate.git"
+    "url": "https://github.com/n7best/react-ptr.git"
   },
-  "homepage": "https://survivejs.github.io/react-component-boilerplate/",
+  "homepage": "https://n7best.github.io/react-ptr/",
   "bugs": {
-    "url": "https://github.com/survivejs/react-component-boilerplate/issues"
+    "url": "https://github.com/n7best/react-ptr/issues"
   },
   "jest": {
     "collectCoverage": true,
@@ -92,10 +102,14 @@
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate"
+    "ptr",
+    "pull to refresh"
   ],
   "license": "MIT",
   "pre-push": [
     "test"
-  ]
+  ],
+  "dependencies": {
+    "classnames": "^2.2.5"
+  }
 }

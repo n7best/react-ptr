@@ -6,6 +6,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import SystemBellPlugin from 'system-bell-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 import merge from 'webpack-merge';
+import autoprefixer from 'autoprefixer';
 
 const pkg = require('./package.json');
 
@@ -17,15 +18,15 @@ const config = {
     src: path.join(ROOT_PATH, 'src'),
     docs: path.join(ROOT_PATH, 'docs')
   },
-  filename: 'boilerplate',
-  library: 'Boilerplate'
+  filename: 'react-ptr',
+  library: 'react-ptr'
 };
 
 process.env.BABEL_ENV = TARGET;
 
 const common = {
   resolve: {
-    extensions: ['', '.js', '.jsx', '.css', '.png', '.jpg']
+    extensions: ['', '.js', '.jsx', '.css', '.png', '.jpg', '.less', '.svg']
   },
   module: {
     preLoaders: [
@@ -45,7 +46,7 @@ const common = {
       },
       {
         test: /\.png$/,
-        loader: 'url?limit=100000&mimetype=image/png',
+        loader: 'url?limit=25000',
         include: config.paths.docs
       },
       {
@@ -57,12 +58,21 @@ const common = {
         test: /\.json$/,
         loader: 'json',
         include: path.join(ROOT_PATH, 'package.json')
+      },
+      {
+          test: /\.less$/,
+          loader: 'style!css!postcss!less'
+      },
+      {
+          test: /\.svg/,
+          loader: 'svg-url-loader?noquotes=true'
       }
     ]
   },
   plugins: [
     new SystemBellPlugin()
-  ]
+  ],
+  postcss: [autoprefixer]
 };
 
 const siteCommon = {

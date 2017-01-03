@@ -1,0 +1,56 @@
+@offset: 187;
+@duration: 1.4s;
+
+.react-ptr-loader__material {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: #fff;
+    margin: auto;
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 4px;
+    }
+
+    &-loading {
+        animation: rotator @duration linear infinite;
+
+        .path {
+          stroke-dasharray: @offset;
+          stroke-dashoffset: 0;
+          transform-origin: center;
+          animation:
+            dash @duration ease-in-out infinite,
+            colors (@duration*4) ease-in-out infinite;
+        }
+    }
+}
+
+@keyframes rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+@keyframes colors {
+	0% { stroke: #4285F4; }
+	25% { stroke: #DE3E35; }
+	50% { stroke: #F7C223; }
+	75% { stroke: #1B9A59; }
+  100% { stroke: #4285F4; }
+}
+
+@keyframes dash {
+ 0% { stroke-dashoffset: @offset; }
+ 50% {
+   stroke-dashoffset: @offset/4;
+   transform:rotate(135deg);
+ }
+ 100% {
+   stroke-dashoffset: @offset;
+   transform:rotate(450deg);
+ }
+}
