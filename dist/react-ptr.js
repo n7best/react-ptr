@@ -60,7 +60,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _ptr2 = _interopRequireDefault(_ptr);
 	
-	var _loaders = __webpack_require__(190);
+	var _loaders = __webpack_require__(193);
 	
 	var _loaders2 = _interopRequireDefault(_loaders);
 	
@@ -101,7 +101,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _default2 = _interopRequireDefault(_default);
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./ptr.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(189);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -22103,15 +22103,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _arrow = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./arrow.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _arrow = __webpack_require__(186);
 	
 	var _arrow2 = _interopRequireDefault(_arrow);
 	
-	var _checked = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./checked.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _checked = __webpack_require__(187);
 	
 	var _checked2 = _interopRequireDefault(_checked);
 	
-	var _loading = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./loading.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _loading = __webpack_require__(188);
 	
 	var _loading2 = _interopRequireDefault(_loading);
 	
@@ -22140,11 +22140,373 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 186 */,
-/* 187 */,
-/* 188 */,
-/* 189 */,
+/* 186 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 21.825 21.825' style='enable-background:new 0 0 21.825 21.825;' xml:space='preserve'%3E %3Cpath style='fill:%231E201D;' d='M16.791,13.254c0.444-0.444,1.143-0.444,1.587,0c0.429,0.444,0.429,1.143,0,1.587l-6.65,6.651 c-0.206,0.206-0.492,0.333-0.809,0.333c-0.317,0-0.603-0.127-0.81-0.333l-6.65-6.651c-0.444-0.444-0.444-1.143,0-1.587 s1.143-0.444,1.587,0l4.746,4.762V1.111C9.791,0.492,10.299,0,10.918,0c0.619,0,1.111,0.492,1.111,1.111v16.904L16.791,13.254z'/%3E %3C/svg%3E"
+
+/***/ },
+/* 187 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 426.667 426.667' style='enable-background:new 0 0 426.667 426.667;' xml:space='preserve'%3E %3Cpath style='fill:%236AC259;' d='M213.333,0C95.518,0,0,95.514,0,213.333s95.518,213.333,213.333,213.333 c117.828,0,213.333-95.514,213.333-213.333S331.157,0,213.333,0z M174.199,322.918l-93.935-93.931l31.309-31.309l62.626,62.622 l140.894-140.898l31.309,31.309L174.199,322.918z'/%3E %3C/svg%3E"
+
+/***/ },
+/* 188 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/svg+xml;charset=utf8,%3Csvg version='1.1' id='loader-1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='40px' height='40px' viewBox='0 0 40 40' enable-background='new 0 0 40 40' xml:space='preserve'%3E %3Cpath opacity='0.2' fill='%23000' d='M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946 s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634 c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z'/%3E %3Cpath fill='%23000' d='M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0 C22.32,8.481,24.301,9.057,26.013,10.047z'%3E %3CanimateTransform attributeType='xml' attributeName='transform' type='rotate' from='0 20 20' to='360 20 20' dur='0.5s' repeatCount='indefinite'/%3E %3C/path%3E %3C/svg%3E"
+
+/***/ },
+/* 189 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(190);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(192)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/postcss-loader/index.js!./../../node_modules/less-loader/index.js!./ptr.less", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/postcss-loader/index.js!./../../node_modules/less-loader/index.js!./ptr.less");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
 /* 190 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(191)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".react-ptr {\n  overflow: hidden;\n  position: relative;\n}\n.react-ptr__loader {\n  pointer-events: none;\n  font-weight: bold;\n  text-align: center;\n  width: 100%;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  align-content: stretch;\n}\n.react-ptr__content {\n  height: 100%;\n  overflow: scroll;\n}\n", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 191 */
+/***/ function(module, exports) {
+
+	/*
+		MIT License http://www.opensource.org/licenses/mit-license.php
+		Author Tobias Koppers @sokra
+	*/
+	// css base code, injected by the css-loader
+	module.exports = function() {
+		var list = [];
+	
+		// return the list of modules as css string
+		list.toString = function toString() {
+			var result = [];
+			for(var i = 0; i < this.length; i++) {
+				var item = this[i];
+				if(item[2]) {
+					result.push("@media " + item[2] + "{" + item[1] + "}");
+				} else {
+					result.push(item[1]);
+				}
+			}
+			return result.join("");
+		};
+	
+		// import a list of modules into the list
+		list.i = function(modules, mediaQuery) {
+			if(typeof modules === "string")
+				modules = [[null, modules, ""]];
+			var alreadyImportedModules = {};
+			for(var i = 0; i < this.length; i++) {
+				var id = this[i][0];
+				if(typeof id === "number")
+					alreadyImportedModules[id] = true;
+			}
+			for(i = 0; i < modules.length; i++) {
+				var item = modules[i];
+				// skip already imported module
+				// this implementation is not 100% perfect for weird media query combinations
+				//  when a module is imported multiple times with different media queries.
+				//  I hope this will never occur (Hey this way we have smaller bundles)
+				if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+					if(mediaQuery && !item[2]) {
+						item[2] = mediaQuery;
+					} else if(mediaQuery) {
+						item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+					}
+					list.push(item);
+				}
+			}
+		};
+		return list;
+	};
+
+
+/***/ },
+/* 192 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/*
+		MIT License http://www.opensource.org/licenses/mit-license.php
+		Author Tobias Koppers @sokra
+	*/
+	var stylesInDom = {},
+		memoize = function(fn) {
+			var memo;
+			return function () {
+				if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+				return memo;
+			};
+		},
+		isOldIE = memoize(function() {
+			return /msie [6-9]\b/.test(window.navigator.userAgent.toLowerCase());
+		}),
+		getHeadElement = memoize(function () {
+			return document.head || document.getElementsByTagName("head")[0];
+		}),
+		singletonElement = null,
+		singletonCounter = 0,
+		styleElementsInsertedAtTop = [];
+	
+	module.exports = function(list, options) {
+		if(false) {
+			if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+		}
+	
+		options = options || {};
+		// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+		// tags it will allow on a page
+		if (typeof options.singleton === "undefined") options.singleton = isOldIE();
+	
+		// By default, add <style> tags to the bottom of <head>.
+		if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
+	
+		var styles = listToStyles(list);
+		addStylesToDom(styles, options);
+	
+		return function update(newList) {
+			var mayRemove = [];
+			for(var i = 0; i < styles.length; i++) {
+				var item = styles[i];
+				var domStyle = stylesInDom[item.id];
+				domStyle.refs--;
+				mayRemove.push(domStyle);
+			}
+			if(newList) {
+				var newStyles = listToStyles(newList);
+				addStylesToDom(newStyles, options);
+			}
+			for(var i = 0; i < mayRemove.length; i++) {
+				var domStyle = mayRemove[i];
+				if(domStyle.refs === 0) {
+					for(var j = 0; j < domStyle.parts.length; j++)
+						domStyle.parts[j]();
+					delete stylesInDom[domStyle.id];
+				}
+			}
+		};
+	}
+	
+	function addStylesToDom(styles, options) {
+		for(var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+			if(domStyle) {
+				domStyle.refs++;
+				for(var j = 0; j < domStyle.parts.length; j++) {
+					domStyle.parts[j](item.parts[j]);
+				}
+				for(; j < item.parts.length; j++) {
+					domStyle.parts.push(addStyle(item.parts[j], options));
+				}
+			} else {
+				var parts = [];
+				for(var j = 0; j < item.parts.length; j++) {
+					parts.push(addStyle(item.parts[j], options));
+				}
+				stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+			}
+		}
+	}
+	
+	function listToStyles(list) {
+		var styles = [];
+		var newStyles = {};
+		for(var i = 0; i < list.length; i++) {
+			var item = list[i];
+			var id = item[0];
+			var css = item[1];
+			var media = item[2];
+			var sourceMap = item[3];
+			var part = {css: css, media: media, sourceMap: sourceMap};
+			if(!newStyles[id])
+				styles.push(newStyles[id] = {id: id, parts: [part]});
+			else
+				newStyles[id].parts.push(part);
+		}
+		return styles;
+	}
+	
+	function insertStyleElement(options, styleElement) {
+		var head = getHeadElement();
+		var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
+		if (options.insertAt === "top") {
+			if(!lastStyleElementInsertedAtTop) {
+				head.insertBefore(styleElement, head.firstChild);
+			} else if(lastStyleElementInsertedAtTop.nextSibling) {
+				head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
+			} else {
+				head.appendChild(styleElement);
+			}
+			styleElementsInsertedAtTop.push(styleElement);
+		} else if (options.insertAt === "bottom") {
+			head.appendChild(styleElement);
+		} else {
+			throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+		}
+	}
+	
+	function removeStyleElement(styleElement) {
+		styleElement.parentNode.removeChild(styleElement);
+		var idx = styleElementsInsertedAtTop.indexOf(styleElement);
+		if(idx >= 0) {
+			styleElementsInsertedAtTop.splice(idx, 1);
+		}
+	}
+	
+	function createStyleElement(options) {
+		var styleElement = document.createElement("style");
+		styleElement.type = "text/css";
+		insertStyleElement(options, styleElement);
+		return styleElement;
+	}
+	
+	function createLinkElement(options) {
+		var linkElement = document.createElement("link");
+		linkElement.rel = "stylesheet";
+		insertStyleElement(options, linkElement);
+		return linkElement;
+	}
+	
+	function addStyle(obj, options) {
+		var styleElement, update, remove;
+	
+		if (options.singleton) {
+			var styleIndex = singletonCounter++;
+			styleElement = singletonElement || (singletonElement = createStyleElement(options));
+			update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
+			remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
+		} else if(obj.sourceMap &&
+			typeof URL === "function" &&
+			typeof URL.createObjectURL === "function" &&
+			typeof URL.revokeObjectURL === "function" &&
+			typeof Blob === "function" &&
+			typeof btoa === "function") {
+			styleElement = createLinkElement(options);
+			update = updateLink.bind(null, styleElement);
+			remove = function() {
+				removeStyleElement(styleElement);
+				if(styleElement.href)
+					URL.revokeObjectURL(styleElement.href);
+			};
+		} else {
+			styleElement = createStyleElement(options);
+			update = applyToTag.bind(null, styleElement);
+			remove = function() {
+				removeStyleElement(styleElement);
+			};
+		}
+	
+		update(obj);
+	
+		return function updateStyle(newObj) {
+			if(newObj) {
+				if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
+					return;
+				update(obj = newObj);
+			} else {
+				remove();
+			}
+		};
+	}
+	
+	var replaceText = (function () {
+		var textStore = [];
+	
+		return function (index, replacement) {
+			textStore[index] = replacement;
+			return textStore.filter(Boolean).join('\n');
+		};
+	})();
+	
+	function applyToSingletonTag(styleElement, index, remove, obj) {
+		var css = remove ? "" : obj.css;
+	
+		if (styleElement.styleSheet) {
+			styleElement.styleSheet.cssText = replaceText(index, css);
+		} else {
+			var cssNode = document.createTextNode(css);
+			var childNodes = styleElement.childNodes;
+			if (childNodes[index]) styleElement.removeChild(childNodes[index]);
+			if (childNodes.length) {
+				styleElement.insertBefore(cssNode, childNodes[index]);
+			} else {
+				styleElement.appendChild(cssNode);
+			}
+		}
+	}
+	
+	function applyToTag(styleElement, obj) {
+		var css = obj.css;
+		var media = obj.media;
+	
+		if(media) {
+			styleElement.setAttribute("media", media)
+		}
+	
+		if(styleElement.styleSheet) {
+			styleElement.styleSheet.cssText = css;
+		} else {
+			while(styleElement.firstChild) {
+				styleElement.removeChild(styleElement.firstChild);
+			}
+			styleElement.appendChild(document.createTextNode(css));
+		}
+	}
+	
+	function updateLink(linkElement, obj) {
+		var css = obj.css;
+		var sourceMap = obj.sourceMap;
+	
+		if(sourceMap) {
+			// http://stackoverflow.com/a/26603875
+			css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+		}
+	
+		var blob = new Blob([css], { type: "text/css" });
+	
+		var oldSrc = linkElement.href;
+	
+		linkElement.href = URL.createObjectURL(blob);
+	
+		if(oldSrc)
+			URL.revokeObjectURL(oldSrc);
+	}
+
+
+/***/ },
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22157,15 +22519,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _default2 = _interopRequireDefault(_default);
 	
-	var _material = __webpack_require__(191);
+	var _material = __webpack_require__(194);
 	
 	var _material2 = _interopRequireDefault(_material);
 	
-	var _modern = __webpack_require__(194);
+	var _modern = __webpack_require__(198);
 	
 	var _modern2 = _interopRequireDefault(_modern);
 	
-	var _rocket = __webpack_require__(196);
+	var _rocket = __webpack_require__(201);
 	
 	var _rocket2 = _interopRequireDefault(_rocket);
 	
@@ -22179,7 +22541,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 191 */
+/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22192,11 +22554,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _refreshButton = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./refresh-button.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _refreshButton = __webpack_require__(195);
 	
 	var _refreshButton2 = _interopRequireDefault(_refreshButton);
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./style.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(196);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -22236,9 +22598,53 @@ return /******/ (function(modules) { // webpackBootstrap
 	}; //Icon Madeby Google CC 3.0
 
 /***/ },
-/* 192 */,
-/* 193 */,
-/* 194 */
+/* 195 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='408px' height='408px' viewBox='0 0 408 408' style='enable-background:new 0 0 408 408; color: %23a3a3a3;'%3E %3Cg%3E %3Cg id='refresh'%3E %3Cpath fill='%23a3a3a3' d='M346.8,61.2C311.1,22.95,260.1,0,204,0C91.8,0,0,91.8,0,204s91.8,204,204,204c94.35,0,173.4-66.3,196.35-153H346.8 C326.4,313.65,270.3,357,204,357c-84.15,0-153-68.85-153-153c0-84.15,68.85-153,153-153c43.35,0,79.05,17.85,107.1,45.9 l-81.6,81.6H408V0L346.8,61.2z'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E"
+
+/***/ },
+/* 196 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(197);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(192)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/less-loader/index.js!./style.less", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/less-loader/index.js!./style.less");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 197 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(191)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".react-ptr-loader__material {\n  width: 30px;\n  height: 30px;\n  padding: 5px;\n  border-radius: 50%;\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\n  background: #fff;\n  margin: auto;\n}\n.react-ptr-loader__material img {\n  display: block;\n  margin: auto;\n  margin-top: 4px;\n}\n.react-ptr-loader__material-loading {\n  animation: rotator 1.4s linear infinite;\n}\n.react-ptr-loader__material-loading .path {\n  stroke-dasharray: 187;\n  stroke-dashoffset: 0;\n  transform-origin: center;\n  animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;\n}\n@keyframes rotator {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(270deg);\n  }\n}\n@keyframes colors {\n  0% {\n    stroke: #4285F4;\n  }\n  25% {\n    stroke: #DE3E35;\n  }\n  50% {\n    stroke: #F7C223;\n  }\n  75% {\n    stroke: #1B9A59;\n  }\n  100% {\n    stroke: #4285F4;\n  }\n}\n@keyframes dash {\n  0% {\n    stroke-dashoffset: 187;\n  }\n  50% {\n    stroke-dashoffset: 46.75;\n    transform: rotate(135deg);\n  }\n  100% {\n    stroke-dashoffset: 187;\n    transform: rotate(450deg);\n  }\n}\n", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22251,7 +22657,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./style.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(199);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -22300,8 +22706,47 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 195 */,
-/* 196 */
+/* 199 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(200);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(192)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/less-loader/index.js!./style.less", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/less-loader/index.js!./style.less");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 200 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(191)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".react-ptr-loader__modern {\n  flex: 1;\n  padding: '5px';\n  margin: 'auto';\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.react-ptr-loader__modern-loader-inner {\n  transform: translateY(-50%);\n  position: absolute;\n  color: #000;\n  padding: 0 100px;\n  text-align: center;\n}\n.react-ptr-loader__modern-loader-inner label {\n  width: 5px;\n  height: 5px;\n  background-color: #000;\n  opacity: 0;\n  display: inline-block;\n  margin: 2px;\n  border-radius: 50%;\n}\n.react-ptr-loader__modern-loader-inner label:nth-child(6) {\n  animation: lol 2s infinite ease-in-out;\n}\n.react-ptr-loader__modern-loader-inner label:nth-child(5) {\n  animation: moving 2s 100ms infinite ease-in-out;\n}\n.react-ptr-loader__modern-loader-inner label:nth-child(4) {\n  animation: moving 2s 200ms infinite ease-in-out;\n}\n.react-ptr-loader__modern-loader-inner label:nth-child(3) {\n  animation: moving 2s 300ms infinite ease-in-out;\n}\n.react-ptr-loader__modern-loader-inner label:nth-child(2) {\n  animation: moving 2s 400ms infinite ease-in-out;\n}\n.react-ptr-loader__modern-loader-inner label:nth-child(1) {\n  animation: moving 2s 500ms infinite ease-in-out;\n}\n@keyframes moving {\n  0% {\n    opacity: 0;\n    transform: translateX(-300px);\n  }\n  33% {\n    opacity: 1;\n    transform: translateX(0px);\n  }\n  66% {\n    opacity: 1;\n    transform: translateX(0px);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(300px);\n  }\n}\n", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22314,15 +22759,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _rocket = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./rocket.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _rocket = __webpack_require__(202);
 	
 	var _rocket2 = _interopRequireDefault(_rocket);
 	
-	var _chick = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./chick.svg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _chick = __webpack_require__(203);
 	
 	var _chick2 = _interopRequireDefault(_chick);
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./style.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(204);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -22422,6 +22867,58 @@ return /******/ (function(modules) { // webpackBootstrap
 	        )
 	    )
 	};
+
+/***/ },
+/* 202 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='utf-8'?%3E %3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E %3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='139.571px' height='220.318px' viewBox='0 0 139.571 220.318' enable-background='new 0 0 139.571 220.318' xml:space='preserve'%3E %3Cpath fill='%23E37225' d='M5.126,145.472c4.222-9.416,17.499-22.846,18.062-23.414c0.489-0.494,1.206-0.676,1.874-0.492 c0.666,0.189,1.177,0.725,1.334,1.402l17.657,76.414c0.14,0.604-0.023,1.238-0.436,1.695c-0.412,0.467-1.023,0.707-1.638,0.625 c-0.007,0-0.903-0.1-2.363-0.1c-6.41,0-21.854,1.854-26.794,19.029c-0.22,0.762-0.885,1.309-1.675,1.373 c-0.052,0.002-0.105,0.002-0.157,0.002c-0.727,0-1.4-0.414-1.718-1.082C-6.775,187.23,0.839,155.033,5.126,145.472'/%3E %3Cpath fill='%23BD5F28' d='M93.292,201.449c-0.439-0.361-1.014-0.51-1.576-0.398C87.186,201.941,79.653,203,69.465,203 c-10.189,0-17.724-1.059-22.25-1.949c-0.559-0.111-1.136,0.033-1.577,0.398c-0.441,0.365-0.696,0.902-0.696,1.469v10.318 c0,0.938,0.68,1.734,1.604,1.881c0.513,0.082,12.685,2.012,22.919,2.012c10.233,0,22.405-1.93,22.918-2.012 c0.922-0.146,1.605-0.943,1.605-1.881v-10.318C93.989,202.351,93.733,201.814,93.292,201.449'/%3E %3Cg opacity='0.2'%3E %3Cg%3E %3Cdefs%3E %3Crect id='SVGID_1_' x='44.942' y='200.441' width='49.047' height='7.703'/%3E %3C/defs%3E %3CclipPath id='SVGID_2_'%3E %3Cuse xlink:href='%23SVGID_1_' overflow='visible'/%3E %3C/clipPath%3E %3Cpath clip-path='url(%23SVGID_2_)' fill='%23221F1F' d='M93.292,200.876c-0.439-0.359-1.014-0.51-1.576-0.396 c-4.529,0.891-12.063,1.951-22.25,1.951c-10.189,0-17.724-1.061-22.25-1.951c-0.559-0.115-1.136,0.037-1.577,0.396 c-0.441,0.363-0.696,0.904-0.696,1.471v5.717c0-0.572,0.255-1.111,0.696-1.471c0.441-0.363,1.018-0.514,1.577-0.4 c4.526,0.891,12.061,1.951,22.25,1.951c10.188,0,17.721-1.061,22.25-1.951c0.563-0.111,1.137,0.039,1.576,0.4 c0.441,0.359,0.697,0.898,0.697,1.471v-5.717C93.989,201.781,93.733,201.24,93.292,200.876'/%3E %3C/g%3E %3C/g%3E %3Cpath fill='%23F37C20' d='M69.465,1.739c-9.34,0-47.653,48.961-47.653,106.655c0,55.951,16.9,91.826,17.071,92.205 c0.214,0.467,0.61,0.834,1.099,1.004c0.419,0.148,10.525,3.65,29.483,3.65c18.956,0,29.061-3.502,29.485-3.65 c0.486-0.17,0.885-0.537,1.096-1.004c0.172-0.379,17.072-36.254,17.072-92.205C117.118,50.7,78.803,1.739,69.465,1.739z M68.34,142.524c-19.807,0-35.922-16.112-35.922-35.918c0-19.808,16.115-35.922,35.922-35.922c19.805,0,35.918,16.114,35.918,35.922 C104.258,126.412,88.145,142.524,68.34,142.524z'/%3E %3Cpath fill='%23BD5F28' d='M97.368,34.481C86.362,14.423,74.284,1.739,69.465,1.739c-4.821,0-16.897,12.684-27.903,32.742 c3.126,0.92,12.267,3.163,27.903,3.163C85.1,37.644,94.243,35.401,97.368,34.481'/%3E %3Cpath fill='%23E37025' d='M68.34,73.12c18.49,0,33.483,14.99,33.483,33.489c0,18.487-14.993,33.481-33.483,33.481 c-18.495,0-33.486-14.994-33.486-33.481C34.854,88.109,49.845,73.12,68.34,73.12 M68.34,68.247 c-21.151,0-38.358,17.207-38.358,38.362c0,21.147,17.207,38.354,38.358,38.354c21.15,0,38.355-17.207,38.355-38.354 C106.695,85.454,89.49,68.247,68.34,68.247'/%3E %3Cpath display='none' fill='%23FFFFFF' d='M69.465,150.718c-5.506,0-9.985-4.479-9.985-9.982c0-5.506,4.479-9.986,9.985-9.986 c5.504,0,9.983,4.48,9.983,9.986C79.448,146.24,74.969,150.718,69.465,150.718'/%3E %3Cpath display='none' fill='%23E37025' d='M69.465,131.75c4.963,0,8.983,4.023,8.983,8.984c0,4.963-4.02,8.984-8.983,8.984 c-4.962,0-8.985-4.021-8.985-8.984C60.48,135.773,64.503,131.75,69.465,131.75 M69.465,129.75c-6.057,0-10.985,4.928-10.985,10.984 c0,6.059,4.928,10.984,10.985,10.984s10.983-4.926,10.983-10.984C80.448,134.677,75.522,129.75,69.465,129.75'/%3E %3Cpath display='none' fill='%23E6E6E6' d='M63.147,143.402c0-4.963,4.023-8.986,8.984-8.986c1.797,0,3.463,0.541,4.865,1.449 c-1.6-2.471-4.369-4.115-7.532-4.115c-4.962,0-8.985,4.023-8.985,8.986c0,3.162,1.645,5.934,4.118,7.535 C63.688,146.865,63.147,145.201,63.147,143.402'/%3E %3Cpath fill='%23F37C20' d='M133.438,145.472c-4.221-9.416-17.498-22.846-18.063-23.414c-0.486-0.494-1.205-0.676-1.873-0.492 c-0.666,0.189-1.176,0.725-1.332,1.402l-17.658,76.414c-0.141,0.604,0.023,1.238,0.436,1.695c0.412,0.467,1.023,0.707,1.639,0.625 c0.01,0,0.902-0.1,2.363-0.1c6.408,0,21.852,1.854,26.795,19.029c0.217,0.762,0.885,1.309,1.672,1.373 c0.053,0.002,0.105,0.002,0.158,0.002c0.73,0,1.398-0.414,1.721-1.082C145.338,187.23,137.725,155.033,133.438,145.472'/%3E %3Cpath fill='%23F69438' d='M103.448,46.8c6.475,16.294,9.883,50.928,6.102,74.518c3.557,3.723,13.236,14.248,16.73,22.039 c4.141,9.24,11.383,39.592-2.592,72.018c0.814,1.588,1.531,3.334,2.102,5.303c0.219,0.762,0.885,1.309,1.676,1.375 c0.053,0.004,0.102,0.004,0.154,0.004c0.729,0,1.4-0.418,1.719-1.086c16.047-33.695,8.436-65.893,4.145-75.455 c-3.492-7.791-13.176-18.316-16.73-22.039c0.264-4.832,0.412-9.848,0.412-15.035C117.165,85.722,111.223,64.355,103.448,46.8'/%3E %3Cg opacity='0.2'%3E %3Cg%3E %3Cdefs%3E %3Crect id='SVGID_3_' x='21.812' y='1.739' width='62.813' height='201.614'/%3E %3C/defs%3E %3CclipPath id='SVGID_4_'%3E %3Cuse xlink:href='%23SVGID_3_' overflow='visible'/%3E %3C/clipPath%3E %3Cpath clip-path='url(%23SVGID_4_)' fill='%23221F1F' d='M33.622,120.205c0-57.692,38.313-106.656,47.654-106.656 c0.875,0,2.014,0.438,3.35,1.269C78.114,6.507,72.379,1.74,69.465,1.74c-9.34,0-47.653,48.961-47.653,106.655 c0,55.951,16.9,91.826,17.071,92.205c0.214,0.467,0.61,0.834,1.099,1.004c0.201,0.07,2.617,0.9,7.112,1.75 C42.085,189.337,33.622,159.81,33.622,120.205'/%3E %3C/g%3E %3C/g%3E %3C/svg%3E"
+
+/***/ },
+/* 203 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E %3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E %3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 115.572 115.572' style='enable-background:new 0 0 115.572 115.572;' xml:space='preserve'%3E %3Cg%3E %3Cg%3E %3Cg%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' d='M70.191,114.09c0,0.818-0.664,1.482-1.483,1.482l0,0 c-0.818,0-1.482-0.664-1.482-1.482v-9.222c0-0.819,0.664-1.483,1.482-1.483l0,0c0.819,0,1.483,0.664,1.483,1.483V114.09z'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' d='M76.489,110.034c0.601,0.555,0.64,1.492,0.084,2.095l0,0 c-0.555,0.602-1.494,0.639-2.095,0.083l-6.775-6.256c-0.603-0.555-0.64-1.493-0.084-2.095l0,0 c0.555-0.602,1.493-0.639,2.095-0.083L76.489,110.034z'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' d='M60.926,110.034c-0.602,0.555-0.64,1.492-0.083,2.095l0,0 c0.555,0.602,1.493,0.639,2.095,0.083l6.775-6.256c0.602-0.555,0.64-1.493,0.084-2.095l0,0c-0.556-0.602-1.493-0.639-2.095-0.083 L60.926,110.034z'/%3E %3C/g%3E %3Cg%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' d='M48.557,114.09c0,0.818-0.663,1.482-1.483,1.482l0,0 c-0.818,0-1.482-0.664-1.482-1.482v-9.222c0-0.819,0.664-1.483,1.482-1.483l0,0c0.82,0,1.483,0.664,1.483,1.483V114.09z'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' d='M54.856,110.034c0.601,0.555,0.64,1.492,0.083,2.095l0,0 c-0.555,0.602-1.493,0.639-2.095,0.083l-6.775-6.256c-0.603-0.555-0.64-1.493-0.084-2.095l0,0 c0.556-0.602,1.493-0.639,2.095-0.083L54.856,110.034z'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' d='M39.292,110.034c-0.602,0.555-0.639,1.492-0.083,2.095l0,0 c0.556,0.602,1.493,0.639,2.095,0.083l6.775-6.256c0.603-0.555,0.64-1.493,0.084-2.095l0,0c-0.555-0.602-1.493-0.639-2.095-0.083 L39.292,110.034z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3Cg%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23FDBD2C;' d='M90.383,73.638c0,17.674-14.327,32-32,32H57.19 c-17.673,0-32-14.326-32-32v-36.25c0-17.674,14.327-32,32-32h1.193c17.673,0,32,14.326,32,32V73.638z'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23FDBD2C;' d='M57.19,5.388c0,0,14.515,0.056,17.018-5.388 c0,0,1.926,2.22,0,5.388c0,0,0.169,1.165,3.17,0c0,0,1.668,0.608-4.667,3.388'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23F4C778;' d='M77.643,85.781c0,10.966-8.89,19.856-19.856,19.856l0,0 c-10.967,0-19.856-8.891-19.856-19.856v-6.476c0-10.967,8.89-19.857,19.856-19.857l0,0c10.967,0,19.856,8.891,19.856,19.857 V85.781z'/%3E %3C/g%3E %3Cg%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23F2B02A;' d='M82.053,61.017l4.084,14.867 c0.936,3.41,4.459,5.414,7.869,4.477l0,0c3.408-0.936,5.413-4.459,4.476-7.868c0,0-0.992-4.628-1.66-6.046 C95.147,62.888,92.129,59.764,82.053,61.017z'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23F2B02A;' d='M33.519,61.017l-4.083,14.867 c-0.937,3.41-4.459,5.414-7.868,4.477l0,0c-3.41-0.936-5.414-4.459-4.478-7.868c0,0,0.994-4.628,1.661-6.046 C20.426,62.888,23.444,59.764,33.519,61.017z'/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3Cg%3E %3Cg%3E %3Ccircle style='fill-rule:evenodd;clip-rule:evenodd;fill:%231A1A1A;' cx='43.294' cy='40.091' r='3.965'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;' d='M43.294,39.327c0-0.828,0.668-1.5,1.496-1.5 c0.832,0,1.498,0.672,1.498,1.5c0,0.826-0.666,1.498-1.498,1.498C43.962,40.825,43.294,40.153,43.294,39.327z'/%3E %3C/g%3E %3Cg%3E %3Ccircle style='fill-rule:evenodd;clip-rule:evenodd;fill:%231A1A1A;' cx='72.278' cy='40.091' r='3.964'/%3E %3Cpath style='fill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;' d='M72.279,39.327c0-0.828,0.668-1.5,1.496-1.5 c0.832,0,1.497,0.672,1.497,1.5c0,0.826-0.665,1.498-1.497,1.498C72.947,40.825,72.279,40.153,72.279,39.327z'/%3E %3C/g%3E %3C/g%3E %3Cpolygon style='fill-rule:evenodd;clip-rule:evenodd;fill:%23E7831E;' points='57.786,57.386 54.005,50.837 50.224,44.288 57.786,44.288 65.349,44.288 61.568,50.837 '/%3E %3C/g%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3Cg%3E %3C/g%3E %3C/svg%3E"
+
+/***/ },
+/* 204 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(205);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(192)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/less-loader/index.js!./style.less", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/less-loader/index.js!./style.less");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 205 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(191)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".react-ptr-loader__rocket {\n  position: relative;\n  height: 150px;\n  background: #eee;\n}\n.react-ptr-loader__rocket-rocket {\n  display: block;\n  z-index: 30;\n  position: absolute;\n  left: 50%;\n  transform: translate(-50%, 0);\n}\n.react-ptr-loader__rocket-rocketShadow {\n  display: block;\n  position: absolute;\n  z-index: 15;\n  bottom: 10px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #eee;\n  left: 50%;\n  transform: translate(-50%, 0);\n}\n.react-ptr-loader__rocket-animal {\n  display: block;\n  z-index: 20;\n  position: absolute;\n  left: 50%;\n  bottom: 20px;\n  transform: translate(-50%, 0);\n}\n.react-ptr-loader__rocket-floor {\n  position: absolute;\n  width: 100%;\n  background: #cccccc;\n  border-top: 1px solid black;\n  border-bottom: 1px solid #eee;\n  height: 30px;\n  bottom: 0;\n  z-index: 10;\n  box-shadow: inset 0px -7px 10px -5px rgba(0, 0, 0, 0.5);\n}\n.react-ptr-loader__rocket-sun {\n  position: absolute;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  z-index: 5;\n  left: 10px;\n  background-color: white;\n}\n.react-ptr-loader__rocket-tower {\n  border-color: #cacaca;\n  border-style: solid;\n  position: absolute;\n  background-image: linear-gradient(-45deg, transparent 29px, #cacaca 31px, #d7d7d7 31px, #d7d7d7 33px, transparent 33px), linear-gradient(45deg, transparent 29px, #cacaca 29px, #cacaca 31px, #bdbdbd 31px, #bdbdbd 33px, transparent 33px);\n  background-size: 44px 44px;\n  border-width: 5px 5px 0;\n  bottom: 0;\n  height: 120px;\n  width: 15px;\n}\n.react-ptr-loader__rocket-fence {\n  position: absolute;\n  width: 150px;\n  height: 30px;\n  background-color: #e0e0e0;\n  left: 50%;\n  transform: translate(-50%, 0);\n  z-index: 40;\n  border: 1px solid black;\n  text-align: center;\n  transition: bottom .3s;\n  border-radius: 5px;\n}\n.react-ptr-loader__rocket-fence p {\n  margin: auto;\n  margin-top: 8px;\n  font-size: 12px;\n  color: black;\n}\n.react-ptr-loader__rocket-fence .legs {\n  position: absolute;\n  height: 15px;\n  width: 8px;\n  top: 30px;\n  left: 15px;\n  background-color: #e0e0e0;\n  border: 1px solid black;\n}\n.react-ptr-loader__rocket-fence .legs:before {\n  content: '';\n  position: absolute;\n  height: 15px;\n  width: 8px;\n  top: -1px;\n  background-color: #e0e0e0;\n  left: 109px;\n  border: 1px solid black;\n}\n.react-ptr-loader__rocket-fire {\n  width: 15px;\n  height: 30px;\n  position: absolute;\n  bottom: 70px;\n  transform-origin: center bottom;\n  animation-name: flicker;\n  animation-duration: 3ms;\n  animation-timing-function: ease-in;\n  animation-iteration-count: infinite;\n  animation-direction: alternate;\n  left: 50%;\n  transform: translate(-50%, 0);\n}\n.react-ptr-loader__rocket-fire .flame {\n  bottom: 0;\n  position: absolute;\n  border-bottom-right-radius: 50%;\n  border-bottom-left-radius: 50%;\n  border-top-left-radius: 50%;\n  transform: rotate(-45deg) scale(1.5, 1.5);\n}\n.react-ptr-loader__rocket-fire .yellow {\n  left: 7.5px;\n  width: 15px;\n  height: 15px;\n  background: gold;\n  box-shadow: 0px 0px 9px 4px gold;\n}\n.react-ptr-loader__rocket-fire .orange {\n  left: 5px;\n  width: 20px;\n  height: 20px;\n  background: orange;\n  box-shadow: 0px 0px 9px 4px orange;\n}\n.react-ptr-loader__rocket-fire .red {\n  left: 2.5px;\n  width: 25px;\n  height: 25px;\n  background: OrangeRed;\n  box-shadow: 0px 0px 5px 4px OrangeRed;\n}\n.react-ptr-loader__rocket-fire .white {\n  left: 7.5px;\n  bottom: -2px;\n  width: 15px;\n  height: 15px;\n  background: white;\n  box-shadow: 0px 0px 9px 4px white;\n}\n.react-ptr-loader__rocket-clouds {\n  width: 100%;\n  height: 100%;\n  z-index: -100;\n}\n.react-ptr-loader__rocket-clouds .cloud {\n  width: 100px;\n  height: 37.5px;\n  background: -webkit-linear-gradient(top, white 5%, whitesmoke 100%);\n  border-radius: 70px;\n  position: absolute;\n  top: 150px;\n  left: 150px;\n  animation-name: movingClouds;\n  animation-duration: 3s;\n  animation-timing-function: linear;\n  animation-iteration-count: infinite;\n  animation-fill-mode: forwards;\n}\n.react-ptr-loader__rocket-clouds .cloud:before,\n.react-ptr-loader__rocket-clouds .cloud:after {\n  content: \"\";\n  position: absolute;\n  background: white;\n  z-index: -1;\n}\n.react-ptr-loader__rocket-clouds .cloud:before {\n  width: 35px;\n  height: 35px;\n  top: -17.5px;\n  left: 10px;\n  border-radius: 50%;\n}\n.react-ptr-loader__rocket-clouds .cloud:after {\n  width: 50px;\n  height: 50px;\n  top: -22.5px;\n  right: 10px;\n  border-radius: 50%;\n}\n@keyframes movingClouds {\n  from {\n    margin-top: -100%;\n  }\n  to {\n    margin-top: 100%;\n  }\n}\n@keyframes flicker {\n  0% {\n    transform: rotate(-181deg);\n  }\n  20% {\n    transform: rotate(-180deg);\n  }\n  40% {\n    transform: rotate(-181deg);\n  }\n  60% {\n    transform: rotate(-180deg) scaleY(1.04);\n  }\n  80% {\n    transform: rotate(-182deg) scaleY(0.92);\n  }\n  100% {\n    transform: rotate(-180deg);\n  }\n}\n", ""]);
+	
+	// exports
+
 
 /***/ }
 /******/ ])
